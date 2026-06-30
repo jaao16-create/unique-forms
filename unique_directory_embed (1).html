@@ -1,0 +1,113 @@
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+.header { background: #3D3D3D; padding: 1.5rem 1.25rem 0; text-align: center; overflow: hidden; }
+.logo-text { font-size: 36px; font-weight: 700; letter-spacing: 6px; color: #ffffff; font-family: 'Montserrat', Arial, sans-serif; line-height: 1; }
+.logo-accent { color: #6B5FB5; }
+.header-sub { color: #ccc; font-size: 12px; padding: 8px 0 10px; letter-spacing: 1px; }
+.wave-svg { width: 100%; display: block; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; padding: 1.25rem 1rem; background: #f9f9f9; }
+.card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 1.1rem; text-decoration: none; display: block; border-left: 4px solid #ccc; }
+.card:hover { background: #f5f5f5; }
+.card.purple { border-left-color: #6B5FB5; }
+.card.blue   { border-left-color: #4BB8E8; }
+.card.green  { border-left-color: #AACC55; }
+.card.pink   { border-left-color: #F28A8A; }
+.card-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
+.badge { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; margin-top: 2px; }
+.badge.purple { background: #EEECf8; }
+.badge.blue   { background: #E3F5FC; }
+.badge.green  { background: #F1F8E0; }
+.badge.pink   { background: #FCF0F0; }
+.card-title { font-size: 14px; font-weight: 600; color: #333; line-height: 1.4; }
+.card-code { font-size: 11px; color: #999; margin-top: 1px; }
+.card-mm { font-size: 12px; color: #666; margin-top: 1px; }
+.card-desc { font-size: 12px; color: #555; line-height: 1.6; margin-bottom: 4px; }
+.card-desc-mm { font-size: 11px; color: #888; line-height: 1.6; margin-bottom: 10px; }
+.open-btn { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 600; padding: 4px 12px; border-radius: 99px; text-decoration: none; }
+.open-btn.purple { background: #EEECf8; color: #6B5FB5; }
+.open-btn.blue   { background: #E3F5FC; color: #2196A6; }
+.open-btn.green  { background: #F1F8E0; color: #6A8C1A; }
+.open-btn.pink   { background: #FCF0F0; color: #C0605F; }
+.footer { text-align: center; padding: 0.75rem 1rem 1.25rem; font-size: 11px; color: #999; background: #f9f9f9; border-top: 1px solid #eee; }
+</style>
+
+<div class="header">
+  <div class="logo-text">UNI<span class="logo-accent">Q</span>UE</div>
+  <div class="header-sub">ระบบแบบฟอร์มดิจิทัล &nbsp;•&nbsp; ဒစ်ဂျစ်တယ် ဖောင်စနစ်</div>
+  <svg class="wave-svg" viewBox="0 0 800 18" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <path d="M0,9 C100,0 200,18 300,9 C400,0 500,18 600,9 C700,0 800,18 800,9 L800,18 L0,18 Z" fill="#4BB8E8" opacity="0.7"/>
+    <path d="M0,12 C120,3 240,18 360,10 C480,2 600,18 800,8 L800,18 L0,18 Z" fill="#AACC55" opacity="0.6"/>
+    <path d="M0,14 C150,5 300,18 450,11 C600,4 700,16 800,10 L800,18 L0,18 Z" fill="#F28A8A" opacity="0.55"/>
+  </svg>
+</div>
+
+<div class="grid">
+  <a class="card purple" href="https://script.google.com/macros/s/AKfycbw0I2RHneUdZb9teIYezOMDZ2OpQAemqoES3w2XvtdjExdns06PSVJyvnHQzweoQaBbaQ/exec" target="_blank">
+    <div class="card-top">
+      <div class="badge purple">📋</div>
+      <div>
+        <div class="card-title">ประวัติการฝึกอบรม</div>
+        <div class="card-mm">လေ့ကျင့်ရေး မှတ်တမ်း</div>
+      </div>
+    </div>
+    <div class="card-desc">บันทึกและดูประวัติการอบรมของพนักงาน</div>
+    <div class="card-desc-mm">ဝန်ထမ်းများ၏ သင်တန်း မှတ်တမ်းများ ကြည့်ရှုရန်</div>
+    <span class="open-btn purple">▶ เปิดฟอร์ม / ဖွင့်မည်</span>
+  </a>
+
+  <a class="card blue" href="https://apps.powerapps.com/play/e/default-51f5cbaa-d716-4fb6-a84c-67cfe36d164d/a/d13def14-b07a-4f2d-a4e5-b313be9b6172?tenantId=51f5cbaa-d716-4fb6-a84c-67cfe36d164d&hint=64d9e608-3ce6-49f3-9f98-db95c8e07b0f&sourcetime=1782780585545" target="_blank">
+    <div class="card-top">
+      <div class="badge blue">🔧</div>
+      <div>
+        <div class="card-title">ใบแจ้งซ่อม</div>
+        <div class="card-mm">ပြုပြင်မှု တောင်းဆိုလွှာ</div>
+      </div>
+    </div>
+    <div class="card-desc">แจ้งซ่อมอุปกรณ์และเครื่องจักร</div>
+    <div class="card-desc-mm">စက်ပစ္စည်းများ ပြုပြင်ရန် တောင်းဆိုသည်</div>
+    <span class="open-btn blue">▶ เปิดฟอร์ม / ဖွင့်မည်</span>
+  </a>
+
+  <a class="card green" href="https://forms.gle/9S5XBqxSPaije8vE7" target="_blank">
+    <div class="card-top">
+      <div class="badge green">🧼</div>
+      <div>
+        <div class="card-title">ใบตรวจสอบสุขลักษณะส่วนบุคคล</div>
+        <div class="card-code">FM-GMP-012</div>
+        <div class="card-mm">ကိုယ်ရေးကိုယ်တာ သန့်ရှင်းရေး စစ်ဆေးမှု</div>
+      </div>
+    </div>
+    <div class="card-desc">ตรวจสอบความสะอาดและสุขลักษณะก่อนเข้างาน</div>
+    <div class="card-desc-mm">အလုပ်မစတင်မီ သန့်ရှင်းရေး စစ်ဆေးရန်</div>
+    <span class="open-btn green">▶ เปิดฟอร์ม / ဖွင့်မည်</span>
+  </a>
+
+  <a class="card pink" href="https://forms.cloud.microsoft/r/wJCPfBnph7" target="_blank">
+    <div class="card-top">
+      <div class="badge pink">📝</div>
+      <div>
+        <div class="card-title">ใบเปลี่ยนแปลงเอกสาร (ใบดาร์)</div>
+        <div class="card-code">FM-DCC-001</div>
+        <div class="card-mm">စာရွက်စာတမ်း ပြောင်းလဲမှု လွှာ</div>
+      </div>
+    </div>
+    <div class="card-desc">แจ้งขอเปลี่ยนแปลงหรืออัปเดตเอกสาร</div>
+    <div class="card-desc-mm">စာရွက်စာတမ်းများ ပြင်ဆင်ရန် တောင်းဆိုသည်</div>
+    <span class="open-btn pink">▶ เปิดฟอร์ม / ဖွင့်မည်</span>
+  </a>
+
+  <a class="card purple" href="https://forms.gle/scYNZiY5EFVQCn2N6" target="_blank">
+    <div class="card-top">
+      <div class="badge purple">⚠️</div>
+      <div>
+        <div class="card-title">รายงาน Near Miss</div>
+        <div class="card-mm">အန္တရာယ် နီးပါး ဖြစ်ရပ် အစီရင်ခံစာ</div>
+      </div>
+    </div>
+    <div class="card-desc">รายงานเหตุการณ์เกือบเกิดอุบัติเหตุ</div>
+    <div class="card-desc-mm">အန္တရာယ် နီးပါး ဖြစ်ရပ်များ သတင်းပို့ရန်</div>
+    <span class="open-btn purple">▶ เปิดฟอร์ม / ဖွင့်မည်</span>
+  </a>
+</div>
+
+<div class="footer">กดที่การ์ดเพื่อเปิดแบบฟอร์ม &nbsp;•&nbsp; ကတ်ကို နှိပ်၍ ဖောင်ကို ဖွင့်ပါ</div>
